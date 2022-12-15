@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background: linear-gradient(179.37deg, #000000 0.54%, #921616 99.46%);
+}
+
+#container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#bs{
+	width: 100%;
+	height: 5vh;
+	margin-top: 1vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#busca{
+	width: 13%;
+	height: 3vh;
+	margin-top: 1vh;
+	margin-left: 2vh;
+	border-radius: 0.8vh;
+	background-color: #760101EA;
+}
+
+#lupa{
+	width: 3vh;
+	height: 3vh;
+	margin-top: 0.1vh;
+	margin-left: 0.5vh;
+}
+
+#icon1{
+	width: 1.7%;
+	height: 3vh;
+	margin-left: 156vh;
+	margin-top: 1vh;
+}
+
+#instagram{
+	margin-top: -0.3vh;
+}
+
+#icon2{
+	width: 1.7%;
+	height: 3vh;
+	margin-top: 1vh;
+	margin-left: 3vh;
+}
+
+#facebook{
+	margin-top: -0.3vh;
+}
+
+#icon3{
+	width: 1.7%;
+	height: 3vh;
+	margin-top: 1vh;
+	margin-left: 3vh;
+}
+
+#twitter{
+	margin-top: -0.3vh;
+}
+
+#banner{
+	width: 95%;
+	height: 60vh;
+	margin-left: 5vh;
+	margin-top: 2vh;
+	border-radius: 1vh;
+}
+
+#bw{
+	width: 100%;
+	height: 60vh;
+	border-radius: 1vh;
+}
+
+#band{
+	width: 100%;
+	height: 28vh;
+	margin-top: 2vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#alemanha{
+	width: 22%;
+	height: 25vh;
+	margin-left: 8vh;
+	margin-top: 1.5vh;
+	border-radius: 1vh;
+}
+
+#size1{
+	width: 100%;
+	height: 25vh;
+	border-radius: 1vh;
+}
+
+#costar{
+	width: 22%;
+	height: 25vh;
+	margin-left: 2vh;
+	margin-top: 1.5vh;
+	border-radius: 1vh;
+}
+
+#size2{
+	width: 100%;
+	height: 25vh;
+	border-radius: 1vh;
+}
+
+#espanha{
+	width: 22%;
+	height: 25vh;
+	margin-left: 2vh;
+	margin-top: 1.5vh;
+	border-radius: 1vh;
+}
+
+#size3{
+	width: 100%;
+	height: 25vh;
+	border-radius: 1vh;
+}
+
+#japao{
+	width: 22%;
+	height: 25vh;
+	margin-left: 2vh;
+	margin-top: 1.5vh;
+	border-radius: 1vh;
+}
+
+#size4{
+	width: 100%;
+	height: 25vh;
+	border-radius: 1vh;
+}
+
+#pi{
+	width: 98%;
+	height: 57vh;
+	margin-top: 2vh;
+	margin-left: 2vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#taça{
+	width: 32%;
+	height: 57vh;
+	border-radius: 1vh;
+}
+
+#sizetaça{
+	width: 100%;
+	height: 57vh;
+	border-radius: 1vh;
+}
+
+#tabela{
+	width: 29%;
+	height: 56vh;
+	border-radius: 1vh;
+	margin-left: -57vh;
+}
+
+#text{
+	width: 37%;
+	font-size: 2.6vh;
+	font-family: sans-serif;
+	font: Arimo, bold;
+	margin-top: 11vh;
+	margin-left: 2vh;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+#text2{
+	width: 37%;
+	font-size: 2vh;
+	margin-right: 58vh;
+	margin-top: 3vh;
+	margin-left: 2vh;
+	color: white;
+	font-family: sans-serif;
+	font: Fira Sans Extra Condensed;
+}
+
+#text3{
+	width: 37%;
+	font-size: 2vh;
+	margin-right: 58vh;
+	margin-top: 3vh;
+	margin-left: 2vh;
+	color: white;
+	font-family: sans-serif;
+}
+
+#text4{
+	width: 37%;
+	font-size: 2vh;
+	margin-right: 58vh;
+	margin-top: 3vh;
+	margin-left: 2vh;
+	color: white;
+	font-family: sans-serif;
+}
+
+@media (max-width: 760px){
+	#busca{
+		width: 60%;
+		height: 3vh;
+	}
+
+	#banner{
+		display: none;
+	}
+
+	#alemanha{
+		width: 90%;
+		height: 20vh;
+	}
+
+	#costar{
+		width: 90%;
+		height: 20vh;
+		margin-top: -12vh;
+		margin-left: 50vh;
+	}
+}
